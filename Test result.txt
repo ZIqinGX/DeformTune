@@ -1,0 +1,782 @@
+Windows PowerShell
+版权所有（C） Microsoft Corporation。保留所有权利。
+
+安装最新的 PowerShell，了解新功能和改进！https://aka.ms/PSWindows
+
+加载个人及系统配置文件用了 3852 毫秒。
+(base) PS D:\PhD_Year1\Prototype1\Exploring_XAI_in_GenMus_via_LSR-main> python train_with_arduino.py
+C:\Users\OS\miniconda3\python.exe: can't open file 'D:\PhD_Year1\Prototype1\Exploring_XAI_in_GenMus_via_LSR-main\train_with_arduino.py': [Errno 2] No such file or directory
+(base) PS D:\PhD_Year1\Prototype1\Exploring_XAI_in_GenMus_via_LSR-main> conda activate RMUSICVAE
+(RMUSICVAE) PS D:\PhD_Year1\Prototype1\Exploring_XAI_in_GenMus_via_LSR-main> cd .\Exploring_XAI_in_GenMus_via_LSR-main\
+(RMUSICVAE) PS D:\PhD_Year1\Prototype1\Exploring_XAI_in_GenMus_via_LSR-main\Exploring_XAI_in_GenMus_via_LSR-main> cd .\utils\
+(RMUSICVAE) PS D:\PhD_Year1\Prototype1\Exploring_XAI_in_GenMus_via_LSR-main\Exploring_XAI_in_GenMus_via_LSR-main\utils> python train_with_arduino.py              
+pygame 2.6.1 (SDL 2.28.4, Python 3.9.21)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+🔍 加载数据集和模型...
+Valid file list already available. Reading them now.
+Dictionaries already exist. Reading them now
+NUMBER OF NOTES:  116
+✅ connect Arduino
+🎧 start receiving Arduino input...
+📅 Arduino input value: 
+⚠️ ignore invalid value: 
+📅 Arduino input value: Arduino 准备就绪...
+⚠️ error: could not convert string to float: 'Arduino 准备就绪...'
+📅 Arduino input value: 0.4194
+📟 original samples tensor shape: torch.Size([1, 1, 24])
+🎛 z0 = 0.42 → notes generated: [36, 4, 4, 51, 4, 4, 8, 4, 4, 51, 4, 4, 8, 4, 4, 51, 4, 4, 8, 4, 4, 51, 4, 4]
+💾 MIDI 文件已保存为: D:/PhD_Year1/Prototype1/Exploring_XAI_in_GenMus_via_LSR-main/Exploring_XAI_in_GenMus_via_LSR-main\009.mid
+🎧 播放用文件: generated_debug.mid
+🎶 共生成 24 个音符
+Pitch: 36, Start: 0.00, End: 0.50
+Pitch: 4, Start: 0.50, End: 1.00
+Pitch: 4, Start: 1.00, End: 1.50
+Pitch: 51, Start: 1.50, End: 2.00
+Pitch: 4, Start: 2.00, End: 2.50
+Pitch: 4, Start: 2.50, End: 3.00
+Pitch: 8, Start: 3.00, End: 3.50
+Pitch: 4, Start: 3.50, End: 4.00
+Pitch: 4, Start: 4.00, End: 4.50
+Pitch: 51, Start: 4.50, End: 5.00
+Pitch: 4, Start: 5.00, End: 5.50
+Pitch: 4, Start: 5.50, End: 6.00
+Pitch: 8, Start: 6.00, End: 6.50
+Pitch: 4, Start: 6.50, End: 7.00
+Pitch: 4, Start: 7.00, End: 7.50
+Pitch: 51, Start: 7.50, End: 8.00
+Pitch: 4, Start: 8.00, End: 8.50
+Pitch: 4, Start: 8.50, End: 9.00
+Pitch: 8, Start: 9.00, End: 9.50
+Pitch: 4, Start: 9.50, End: 10.00
+Pitch: 4, Start: 10.00, End: 10.50
+Pitch: 51, Start: 10.50, End: 11.00
+Pitch: 4, Start: 11.00, End: 11.50
+Pitch: 4, Start: 11.50, End: 12.00
+🎵 正在播放...
+✅ 播放完成
+📅 Arduino input value: 0.4370
+📟 original samples tensor shape: torch.Size([1, 1, 24])
+🎛 z0 = 0.44 → notes generated: [36, 4, 4, 51, 4, 4, 8, 4, 4, 51, 4, 4, 8, 4, 4, 51, 4, 4, 8, 4, 4, 51, 4, 4]
+💾 MIDI 文件已保存为: D:/PhD_Year1/Prototype1/Exploring_XAI_in_GenMus_via_LSR-main/Exploring_XAI_in_GenMus_via_LSR-main\010.mid
+🎧 播放用文件: generated_debug.mid
+🎶 共生成 24 个音符
+Pitch: 36, Start: 0.00, End: 0.50
+Pitch: 4, Start: 0.50, End: 1.00
+Pitch: 4, Start: 1.00, End: 1.50
+Pitch: 51, Start: 1.50, End: 2.00
+Pitch: 4, Start: 2.00, End: 2.50
+Pitch: 4, Start: 2.50, End: 3.00
+Pitch: 8, Start: 3.00, End: 3.50
+Pitch: 4, Start: 3.50, End: 4.00
+Pitch: 4, Start: 4.00, End: 4.50
+Pitch: 51, Start: 4.50, End: 5.00
+Pitch: 4, Start: 5.00, End: 5.50
+Pitch: 4, Start: 5.50, End: 6.00
+Pitch: 8, Start: 6.00, End: 6.50
+Pitch: 4, Start: 6.50, End: 7.00
+Pitch: 4, Start: 7.00, End: 7.50
+Pitch: 51, Start: 7.50, End: 8.00
+Pitch: 4, Start: 8.00, End: 8.50
+Pitch: 4, Start: 8.50, End: 9.00
+Pitch: 8, Start: 9.00, End: 9.50
+Pitch: 4, Start: 9.50, End: 10.00
+Pitch: 4, Start: 10.00, End: 10.50
+Pitch: 51, Start: 10.50, End: 11.00
+Pitch: 4, Start: 11.00, End: 11.50
+Pitch: 4, Start: 11.50, End: 12.00
+🎵 正在播放...
+✅ 播放完成
+📅 Arduino input value: 0.4037
+📟 original samples tensor shape: torch.Size([1, 1, 24])
+🎛 z0 = 0.40 → notes generated: [36, 4, 4, 51, 4, 4, 8, 4, 4, 51, 4, 4, 8, 4, 4, 51, 4, 4, 8, 4, 4, 51, 4, 4]
+💾 MIDI 文件已保存为: D:/PhD_Year1/Prototype1/Exploring_XAI_in_GenMus_via_LSR-main/Exploring_XAI_in_GenMus_via_LSR-main\011.mid
+🎧 播放用文件: generated_debug.mid
+🎶 共生成 24 个音符
+Pitch: 36, Start: 0.00, End: 0.50
+Pitch: 4, Start: 0.50, End: 1.00
+Pitch: 4, Start: 1.00, End: 1.50
+Pitch: 51, Start: 1.50, End: 2.00
+Pitch: 4, Start: 2.00, End: 2.50
+Pitch: 4, Start: 2.50, End: 3.00
+Pitch: 8, Start: 3.00, End: 3.50
+Pitch: 4, Start: 3.50, End: 4.00
+Pitch: 4, Start: 4.00, End: 4.50
+Pitch: 51, Start: 4.50, End: 5.00
+Pitch: 4, Start: 5.00, End: 5.50
+Pitch: 4, Start: 5.50, End: 6.00
+Pitch: 8, Start: 6.00, End: 6.50
+Pitch: 4, Start: 6.50, End: 7.00
+Pitch: 4, Start: 7.00, End: 7.50
+Pitch: 51, Start: 7.50, End: 8.00
+Pitch: 4, Start: 8.00, End: 8.50
+Pitch: 4, Start: 8.50, End: 9.00
+Pitch: 8, Start: 9.00, End: 9.50
+Pitch: 4, Start: 9.50, End: 10.00
+Pitch: 4, Start: 10.00, End: 10.50
+Pitch: 51, Start: 10.50, End: 11.00
+Pitch: 4, Start: 11.00, End: 11.50
+Pitch: 4, Start: 11.50, End: 12.00
+🎵 正在播放...
+🔚 stop.
+(RMUSICVAE) PS D:\PhD_Year1\Prototype1\Exploring_XAI_in_GenMus_via_LSR-main\Exploring_XAI_in_GenMus_via_LSR-main\utils> python train_with_arduino.py
+pygame 2.6.1 (SDL 2.28.4, Python 3.9.21)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+🔍 加载数据集和模型...
+Valid file list already available. Reading them now.
+Dictionaries already exist. Reading them now
+NUMBER OF NOTES:  116
+✅ connect Arduino
+🎧 start receiving Arduino input...
+📅 Arduino input value: 
+⚠️ ignore invalid value: 
+📅 Arduino input value: Arduino 准备就绪...
+⚠️ error: could not convert string to float: 'Arduino 准备就绪...'
+📅 Arduino input value: -0.7654
+📟 original samples tensor shape: torch.Size([1, 1, 24])
+🎛 z0 = -0.77 → notes generated: [36, 4, 4, 33, 4, 4, 51, 4, 4, 51, 4, 4, 8, 4, 4, 57, 4, 4, 8, 4, 4, 51, 4, 4]
+💾 MIDI 文件已保存为: D:/PhD_Year1/Prototype1/Exploring_XAI_in_GenMus_via_LSR-main/Exploring_XAI_in_GenMus_via_LSR-main\012.mid
+🎧 播放用文件: generated_debug.mid
+🎶 共生成 24 个音符
+Pitch: 36, Start: 0.00, End: 0.50
+Pitch: 4, Start: 0.50, End: 1.00
+Pitch: 4, Start: 1.00, End: 1.50
+Pitch: 33, Start: 1.50, End: 2.00
+Pitch: 4, Start: 2.00, End: 2.50
+Pitch: 4, Start: 2.50, End: 3.00
+Pitch: 51, Start: 3.00, End: 3.50
+Pitch: 4, Start: 3.50, End: 4.00
+Pitch: 4, Start: 4.00, End: 4.50
+Pitch: 51, Start: 4.50, End: 5.00
+Pitch: 4, Start: 5.00, End: 5.50
+Pitch: 4, Start: 5.50, End: 6.00
+Pitch: 8, Start: 6.00, End: 6.50
+Pitch: 4, Start: 6.50, End: 7.00
+Pitch: 4, Start: 7.00, End: 7.50
+Pitch: 57, Start: 7.50, End: 8.00
+Pitch: 4, Start: 8.00, End: 8.50
+Pitch: 4, Start: 8.50, End: 9.00
+Pitch: 8, Start: 9.00, End: 9.50
+Pitch: 4, Start: 9.50, End: 10.00
+Pitch: 4, Start: 10.00, End: 10.50
+Pitch: 51, Start: 10.50, End: 11.00
+Pitch: 4, Start: 11.00, End: 11.50
+Pitch: 4, Start: 11.50, End: 12.00
+🎵 正在播放...
+✅ 播放完成
+📅 Arduino input value: -0.8319
+📟 original samples tensor shape: torch.Size([1, 1, 24])
+🎛 z0 = -0.83 → notes generated: [36, 4, 4, 33, 4, 4, 51, 4, 4, 51, 4, 4, 8, 4, 4, 57, 4, 4, 8, 4, 4, 51, 4, 4]
+💾 MIDI 文件已保存为: D:/PhD_Year1/Prototype1/Exploring_XAI_in_GenMus_via_LSR-main/Exploring_XAI_in_GenMus_via_LSR-main\013.mid
+🎧 播放用文件: generated_debug.mid
+🎶 共生成 24 个音符
+Pitch: 36, Start: 0.00, End: 0.50
+Pitch: 4, Start: 0.50, End: 1.00
+Pitch: 4, Start: 1.00, End: 1.50
+Pitch: 33, Start: 1.50, End: 2.00
+Pitch: 4, Start: 2.00, End: 2.50
+Pitch: 4, Start: 2.50, End: 3.00
+Pitch: 51, Start: 3.00, End: 3.50
+Pitch: 4, Start: 3.50, End: 4.00
+Pitch: 4, Start: 4.00, End: 4.50
+Pitch: 51, Start: 4.50, End: 5.00
+Pitch: 4, Start: 5.00, End: 5.50
+Pitch: 4, Start: 5.50, End: 6.00
+Pitch: 8, Start: 6.00, End: 6.50
+Pitch: 4, Start: 6.50, End: 7.00
+Pitch: 4, Start: 7.00, End: 7.50
+Pitch: 57, Start: 7.50, End: 8.00
+Pitch: 4, Start: 8.00, End: 8.50
+Pitch: 4, Start: 8.50, End: 9.00
+Pitch: 8, Start: 9.00, End: 9.50
+Pitch: 4, Start: 9.50, End: 10.00
+Pitch: 4, Start: 10.00, End: 10.50
+Pitch: 51, Start: 10.50, End: 11.00
+Pitch: 4, Start: 11.00, End: 11.50
+Pitch: 4, Start: 11.50, End: 12.00
+🎵 正在播放...
+✅ 播放完成
+📅 Arduino input value: -0.8084
+📟 original samples tensor shape: torch.Size([1, 1, 24])
+🎛 z0 = -0.81 → notes generated: [36, 4, 4, 33, 4, 4, 51, 4, 4, 51, 4, 4, 8, 4, 4, 57, 4, 4, 8, 4, 4, 51, 4, 4]
+💾 MIDI 文件已保存为: D:/PhD_Year1/Prototype1/Exploring_XAI_in_GenMus_via_LSR-main/Exploring_XAI_in_GenMus_via_LSR-main\014.mid
+🎧 播放用文件: generated_debug.mid
+🎶 共生成 24 个音符
+Pitch: 36, Start: 0.00, End: 0.50
+Pitch: 4, Start: 0.50, End: 1.00
+Pitch: 4, Start: 1.00, End: 1.50
+Pitch: 33, Start: 1.50, End: 2.00
+Pitch: 4, Start: 2.00, End: 2.50
+Pitch: 4, Start: 2.50, End: 3.00
+Pitch: 51, Start: 3.00, End: 3.50
+Pitch: 4, Start: 3.50, End: 4.00
+Pitch: 4, Start: 4.00, End: 4.50
+Pitch: 51, Start: 4.50, End: 5.00
+Pitch: 4, Start: 5.00, End: 5.50
+Pitch: 4, Start: 5.50, End: 6.00
+Pitch: 8, Start: 6.00, End: 6.50
+Pitch: 4, Start: 6.50, End: 7.00
+Pitch: 4, Start: 7.00, End: 7.50
+Pitch: 57, Start: 7.50, End: 8.00
+Pitch: 4, Start: 8.00, End: 8.50
+Pitch: 4, Start: 8.50, End: 9.00
+Pitch: 8, Start: 9.00, End: 9.50
+Pitch: 4, Start: 9.50, End: 10.00
+Pitch: 4, Start: 10.00, End: 10.50
+Pitch: 51, Start: 10.50, End: 11.00
+Pitch: 4, Start: 11.00, End: 11.50
+Pitch: 4, Start: 11.50, End: 12.00
+🎵 正在播放...
+✅ 播放完成
+📅 Arduino input value: -0.8514
+📟 original samples tensor shape: torch.Size([1, 1, 24])
+🎛 z0 = -0.85 → notes generated: [36, 4, 4, 33, 4, 4, 51, 4, 4, 51, 4, 4, 8, 4, 4, 57, 4, 4, 8, 4, 4, 51, 4, 4]
+💾 MIDI 文件已保存为: D:/PhD_Year1/Prototype1/Exploring_XAI_in_GenMus_via_LSR-main/Exploring_XAI_in_GenMus_via_LSR-main\015.mid
+🎧 播放用文件: generated_debug.mid
+🎶 共生成 24 个音符
+Pitch: 36, Start: 0.00, End: 0.50
+Pitch: 4, Start: 0.50, End: 1.00
+Pitch: 4, Start: 1.00, End: 1.50
+Pitch: 33, Start: 1.50, End: 2.00
+Pitch: 4, Start: 2.00, End: 2.50
+Pitch: 4, Start: 2.50, End: 3.00
+Pitch: 51, Start: 3.00, End: 3.50
+Pitch: 4, Start: 3.50, End: 4.00
+Pitch: 4, Start: 4.00, End: 4.50
+Pitch: 51, Start: 4.50, End: 5.00
+Pitch: 4, Start: 5.00, End: 5.50
+Pitch: 4, Start: 5.50, End: 6.00
+Pitch: 8, Start: 6.00, End: 6.50
+Pitch: 4, Start: 6.50, End: 7.00
+Pitch: 4, Start: 7.00, End: 7.50
+Pitch: 57, Start: 7.50, End: 8.00
+Pitch: 4, Start: 8.00, End: 8.50
+Pitch: 4, Start: 8.50, End: 9.00
+Pitch: 8, Start: 9.00, End: 9.50
+Pitch: 4, Start: 9.50, End: 10.00
+Pitch: 4, Start: 10.00, End: 10.50
+Pitch: 51, Start: 10.50, End: 11.00
+Pitch: 4, Start: 11.00, End: 11.50
+Pitch: 4, Start: 11.50, End: 12.00
+🎵 正在播放...
+✅ 播放完成
+📅 Arduino input value: -0.8553
+📟 original samples tensor shape: torch.Size([1, 1, 24])
+🎛 z0 = -0.86 → notes generated: [36, 4, 4, 33, 4, 4, 51, 4, 4, 51, 4, 4, 8, 4, 4, 57, 4, 4, 8, 4, 4, 51, 4, 4]
+💾 MIDI 文件已保存为: D:/PhD_Year1/Prototype1/Exploring_XAI_in_GenMus_via_LSR-main/Exploring_XAI_in_GenMus_via_LSR-main\016.mid
+🎧 播放用文件: generated_debug.mid
+🎶 共生成 24 个音符
+Pitch: 36, Start: 0.00, End: 0.50
+Pitch: 4, Start: 0.50, End: 1.00
+Pitch: 4, Start: 1.00, End: 1.50
+Pitch: 33, Start: 1.50, End: 2.00
+Pitch: 4, Start: 2.00, End: 2.50
+Pitch: 4, Start: 2.50, End: 3.00
+Pitch: 51, Start: 3.00, End: 3.50
+Pitch: 4, Start: 3.50, End: 4.00
+Pitch: 4, Start: 4.00, End: 4.50
+Pitch: 51, Start: 4.50, End: 5.00
+Pitch: 4, Start: 5.00, End: 5.50
+Pitch: 4, Start: 5.50, End: 6.00
+Pitch: 8, Start: 6.00, End: 6.50
+Pitch: 4, Start: 6.50, End: 7.00
+Pitch: 4, Start: 7.00, End: 7.50
+Pitch: 57, Start: 7.50, End: 8.00
+Pitch: 4, Start: 8.00, End: 8.50
+Pitch: 4, Start: 8.50, End: 9.00
+Pitch: 8, Start: 9.00, End: 9.50
+Pitch: 4, Start: 9.50, End: 10.00
+Pitch: 4, Start: 10.00, End: 10.50
+Pitch: 51, Start: 10.50, End: 11.00
+Pitch: 4, Start: 11.00, End: 11.50
+Pitch: 4, Start: 11.50, End: 12.00
+🎵 正在播放...
+✅ 播放完成
+📅 Arduino input value: -0.7849
+📟 original samples tensor shape: torch.Size([1, 1, 24])
+🎛 z0 = -0.78 → notes generated: [36, 4, 4, 33, 4, 4, 51, 4, 4, 51, 4, 4, 8, 4, 4, 57, 4, 4, 8, 4, 4, 51, 4, 4]
+💾 MIDI 文件已保存为: D:/PhD_Year1/Prototype1/Exploring_XAI_in_GenMus_via_LSR-main/Exploring_XAI_in_GenMus_via_LSR-main\017.mid
+🎧 播放用文件: generated_debug.mid
+🎶 共生成 24 个音符
+Pitch: 36, Start: 0.00, End: 0.50
+Pitch: 4, Start: 0.50, End: 1.00
+Pitch: 4, Start: 1.00, End: 1.50
+Pitch: 33, Start: 1.50, End: 2.00
+Pitch: 4, Start: 2.00, End: 2.50
+Pitch: 4, Start: 2.50, End: 3.00
+Pitch: 51, Start: 3.00, End: 3.50
+Pitch: 4, Start: 3.50, End: 4.00
+Pitch: 4, Start: 4.00, End: 4.50
+Pitch: 51, Start: 4.50, End: 5.00
+Pitch: 4, Start: 5.00, End: 5.50
+Pitch: 4, Start: 5.50, End: 6.00
+Pitch: 8, Start: 6.00, End: 6.50
+Pitch: 4, Start: 6.50, End: 7.00
+Pitch: 4, Start: 7.00, End: 7.50
+Pitch: 57, Start: 7.50, End: 8.00
+Pitch: 4, Start: 8.00, End: 8.50
+Pitch: 4, Start: 8.50, End: 9.00
+Pitch: 8, Start: 9.00, End: 9.50
+Pitch: 4, Start: 9.50, End: 10.00
+Pitch: 4, Start: 10.00, End: 10.50
+Pitch: 51, Start: 10.50, End: 11.00
+Pitch: 4, Start: 11.00, End: 11.50
+Pitch: 4, Start: 11.50, End: 12.00
+🎵 正在播放...
+🔚 stop.
+(RMUSICVAE) PS D:\PhD_Year1\Prototype1\Exploring_XAI_in_GenMus_via_LSR-main\Exploring_XAI_in_GenMus_via_LSR-main\utils> python train_with_arduino.py
+pygame 2.6.1 (SDL 2.28.4, Python 3.9.21)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+🔍 加载数据集和模型...
+Valid file list already available. Reading them now.
+Dictionaries already exist. Reading them now
+NUMBER OF NOTES:  116
+✅ connect Arduino
+🎧 start receiving Arduino input...
+📅 Arduino input value: 
+⚠️ ignore invalid value:
+📅 Arduino input value: Arduino 准备就绪...
+⚠️ error: could not convert string to float: 'Arduino 准备就绪...'
+📅 Arduino input value: -0.4917
+📟 original samples tensor shape: torch.Size([1, 1, 24])
+🎛 z0 = -0.49 → notes generated: [36, 4, 4, 51, 4, 4, 8, 4, 4, 51, 4, 4, 8, 4, 4, 51, 4, 4, 8, 4, 4, 51, 4, 4]
+💾 MIDI 文件已保存为: D:/PhD_Year1/Prototype1/Exploring_XAI_in_GenMus_via_LSR-main/Exploring_XAI_in_GenMus_via_LSR-main\018.mid
+🎧 播放用文件: generated_debug.mid
+🎶 共生成 24 个音符
+Pitch: 36, Start: 0.00, End: 0.50
+Pitch: 4, Start: 0.50, End: 1.00
+Pitch: 4, Start: 1.00, End: 1.50
+Pitch: 51, Start: 1.50, End: 2.00
+Pitch: 4, Start: 2.00, End: 2.50
+Pitch: 4, Start: 2.50, End: 3.00
+Pitch: 8, Start: 3.00, End: 3.50
+Pitch: 4, Start: 3.50, End: 4.00
+Pitch: 4, Start: 4.00, End: 4.50
+Pitch: 51, Start: 4.50, End: 5.00
+Pitch: 4, Start: 5.00, End: 5.50
+Pitch: 4, Start: 5.50, End: 6.00
+Pitch: 8, Start: 6.00, End: 6.50
+Pitch: 4, Start: 6.50, End: 7.00
+Pitch: 4, Start: 7.00, End: 7.50
+Pitch: 51, Start: 7.50, End: 8.00
+Pitch: 4, Start: 8.00, End: 8.50
+Pitch: 4, Start: 8.50, End: 9.00
+Pitch: 8, Start: 9.00, End: 9.50
+Pitch: 4, Start: 9.50, End: 10.00
+Pitch: 4, Start: 10.00, End: 10.50
+Pitch: 51, Start: 10.50, End: 11.00
+Pitch: 4, Start: 11.00, End: 11.50
+Pitch: 4, Start: 11.50, End: 12.00
+🎵 正在播放...
+✅ 播放完成
+📅 Arduino input value: -0.6579
+📟 original samples tensor shape: torch.Size([1, 1, 24])
+🎛 z0 = -0.66 → notes generated: [36, 4, 4, 51, 4, 4, 51, 4, 4, 51, 4, 4, 8, 4, 4, 57, 4, 4, 8, 4, 4, 51, 4, 4]
+💾 MIDI 文件已保存为: D:/PhD_Year1/Prototype1/Exploring_XAI_in_GenMus_via_LSR-main/Exploring_XAI_in_GenMus_via_LSR-main\019.mid
+🎧 播放用文件: generated_debug.mid
+🎶 共生成 24 个音符
+Pitch: 36, Start: 0.00, End: 0.50
+Pitch: 4, Start: 0.50, End: 1.00
+Pitch: 4, Start: 1.00, End: 1.50
+Pitch: 51, Start: 1.50, End: 2.00
+Pitch: 4, Start: 2.00, End: 2.50
+Pitch: 4, Start: 2.50, End: 3.00
+Pitch: 51, Start: 3.00, End: 3.50
+Pitch: 4, Start: 3.50, End: 4.00
+Pitch: 4, Start: 4.00, End: 4.50
+Pitch: 51, Start: 4.50, End: 5.00
+Pitch: 4, Start: 5.00, End: 5.50
+Pitch: 4, Start: 5.50, End: 6.00
+Pitch: 8, Start: 6.00, End: 6.50
+Pitch: 4, Start: 6.50, End: 7.00
+Pitch: 4, Start: 7.00, End: 7.50
+Pitch: 57, Start: 7.50, End: 8.00
+Pitch: 4, Start: 8.00, End: 8.50
+Pitch: 4, Start: 8.50, End: 9.00
+Pitch: 8, Start: 9.00, End: 9.50
+Pitch: 4, Start: 9.50, End: 10.00
+Pitch: 4, Start: 10.00, End: 10.50
+Pitch: 51, Start: 10.50, End: 11.00
+Pitch: 4, Start: 11.00, End: 11.50
+Pitch: 4, Start: 11.50, End: 12.00
+🎵 正在播放...
+✅ 播放完成
+📅 Arduino input value: -0.7028
+📟 original samples tensor shape: torch.Size([1, 1, 24])
+🎛 z0 = -0.70 → notes generated: [36, 4, 4, 33, 4, 4, 51, 4, 4, 51, 4, 4, 8, 4, 4, 57, 4, 4, 8, 4, 4, 51, 4, 4]
+💾 MIDI 文件已保存为: D:/PhD_Year1/Prototype1/Exploring_XAI_in_GenMus_via_LSR-main/Exploring_XAI_in_GenMus_via_LSR-main\020.mid
+🎧 播放用文件: generated_debug.mid
+🎶 共生成 24 个音符
+Pitch: 36, Start: 0.00, End: 0.50
+Pitch: 4, Start: 0.50, End: 1.00
+Pitch: 4, Start: 1.00, End: 1.50
+Pitch: 33, Start: 1.50, End: 2.00
+Pitch: 4, Start: 2.00, End: 2.50
+Pitch: 4, Start: 2.50, End: 3.00
+Pitch: 51, Start: 3.00, End: 3.50
+Pitch: 4, Start: 3.50, End: 4.00
+Pitch: 4, Start: 4.00, End: 4.50
+Pitch: 51, Start: 4.50, End: 5.00
+Pitch: 4, Start: 5.00, End: 5.50
+Pitch: 4, Start: 5.50, End: 6.00
+Pitch: 8, Start: 6.00, End: 6.50
+Pitch: 4, Start: 6.50, End: 7.00
+Pitch: 4, Start: 7.00, End: 7.50
+Pitch: 57, Start: 7.50, End: 8.00
+Pitch: 4, Start: 8.00, End: 8.50
+Pitch: 4, Start: 8.50, End: 9.00
+Pitch: 8, Start: 9.00, End: 9.50
+Pitch: 4, Start: 9.50, End: 10.00
+Pitch: 4, Start: 10.00, End: 10.50
+Pitch: 51, Start: 10.50, End: 11.00
+Pitch: 4, Start: 11.00, End: 11.50
+Pitch: 4, Start: 11.50, End: 12.00
+🎵 正在播放...
+✅ 播放完成
+📅 Arduino input value: -0.6012
+📟 original samples tensor shape: torch.Size([1, 1, 24])
+🎛 z0 = -0.60 → notes generated: [36, 4, 4, 51, 4, 4, 51, 4, 4, 51, 4, 4, 8, 4, 4, 51, 4, 4, 8, 4, 4, 51, 4, 4]
+💾 MIDI 文件已保存为: D:/PhD_Year1/Prototype1/Exploring_XAI_in_GenMus_via_LSR-main/Exploring_XAI_in_GenMus_via_LSR-main\021.mid
+🎧 播放用文件: generated_debug.mid
+🎶 共生成 24 个音符
+Pitch: 36, Start: 0.00, End: 0.50
+Pitch: 4, Start: 0.50, End: 1.00
+Pitch: 4, Start: 1.00, End: 1.50
+Pitch: 51, Start: 1.50, End: 2.00
+Pitch: 4, Start: 2.00, End: 2.50
+Pitch: 4, Start: 2.50, End: 3.00
+Pitch: 51, Start: 3.00, End: 3.50
+Pitch: 4, Start: 3.50, End: 4.00
+Pitch: 4, Start: 4.00, End: 4.50
+Pitch: 51, Start: 4.50, End: 5.00
+Pitch: 4, Start: 5.00, End: 5.50
+Pitch: 4, Start: 5.50, End: 6.00
+Pitch: 8, Start: 6.00, End: 6.50
+Pitch: 4, Start: 6.50, End: 7.00
+Pitch: 4, Start: 7.00, End: 7.50
+Pitch: 51, Start: 7.50, End: 8.00
+Pitch: 4, Start: 8.00, End: 8.50
+Pitch: 4, Start: 8.50, End: 9.00
+Pitch: 8, Start: 9.00, End: 9.50
+Pitch: 4, Start: 9.50, End: 10.00
+Pitch: 4, Start: 10.00, End: 10.50
+Pitch: 51, Start: 10.50, End: 11.00
+Pitch: 4, Start: 11.00, End: 11.50
+Pitch: 4, Start: 11.50, End: 12.00
+🎵 正在播放...
+✅ 播放完成
+📅 Arduino input value: -0.6774
+📟 original samples tensor shape: torch.Size([1, 1, 24])
+🎛 z0 = -0.68 → notes generated: [36, 4, 4, 51, 4, 4, 51, 4, 4, 51, 4, 4, 8, 4, 4, 57, 4, 4, 8, 4, 4, 51, 4, 4]
+💾 MIDI 文件已保存为: D:/PhD_Year1/Prototype1/Exploring_XAI_in_GenMus_via_LSR-main/Exploring_XAI_in_GenMus_via_LSR-main\022.mid
+🎧 播放用文件: generated_debug.mid
+🎶 共生成 24 个音符
+Pitch: 36, Start: 0.00, End: 0.50
+Pitch: 4, Start: 0.50, End: 1.00
+Pitch: 4, Start: 1.00, End: 1.50
+Pitch: 51, Start: 1.50, End: 2.00
+Pitch: 4, Start: 2.00, End: 2.50
+Pitch: 4, Start: 2.50, End: 3.00
+Pitch: 51, Start: 3.00, End: 3.50
+Pitch: 4, Start: 3.50, End: 4.00
+Pitch: 4, Start: 4.00, End: 4.50
+Pitch: 51, Start: 4.50, End: 5.00
+Pitch: 4, Start: 5.00, End: 5.50
+Pitch: 4, Start: 5.50, End: 6.00
+Pitch: 8, Start: 6.00, End: 6.50
+Pitch: 4, Start: 6.50, End: 7.00
+Pitch: 4, Start: 7.00, End: 7.50
+Pitch: 57, Start: 7.50, End: 8.00
+Pitch: 4, Start: 8.00, End: 8.50
+Pitch: 4, Start: 8.50, End: 9.00
+Pitch: 8, Start: 9.00, End: 9.50
+Pitch: 4, Start: 9.50, End: 10.00
+Pitch: 4, Start: 10.00, End: 10.50
+Pitch: 51, Start: 10.50, End: 11.00
+Pitch: 4, Start: 11.00, End: 11.50
+Pitch: 4, Start: 11.50, End: 12.00
+🎵 正在播放...
+✅ 播放完成
+📅 Arduino input value: -0.6618
+📟 original samples tensor shape: torch.Size([1, 1, 24])
+🎛 z0 = -0.66 → notes generated: [36, 4, 4, 51, 4, 4, 51, 4, 4, 51, 4, 4, 8, 4, 4, 57, 4, 4, 8, 4, 4, 51, 4, 4]
+💾 MIDI 文件已保存为: D:/PhD_Year1/Prototype1/Exploring_XAI_in_GenMus_via_LSR-main/Exploring_XAI_in_GenMus_via_LSR-main\023.mid
+🎧 播放用文件: generated_debug.mid
+🎶 共生成 24 个音符
+Pitch: 36, Start: 0.00, End: 0.50
+Pitch: 4, Start: 0.50, End: 1.00
+Pitch: 4, Start: 1.00, End: 1.50
+Pitch: 51, Start: 1.50, End: 2.00
+Pitch: 4, Start: 2.00, End: 2.50
+Pitch: 4, Start: 2.50, End: 3.00
+Pitch: 51, Start: 3.00, End: 3.50
+Pitch: 4, Start: 3.50, End: 4.00
+Pitch: 4, Start: 4.00, End: 4.50
+Pitch: 51, Start: 4.50, End: 5.00
+Pitch: 4, Start: 5.00, End: 5.50
+Pitch: 4, Start: 5.50, End: 6.00
+Pitch: 8, Start: 6.00, End: 6.50
+Pitch: 4, Start: 6.50, End: 7.00
+Pitch: 4, Start: 7.00, End: 7.50
+Pitch: 57, Start: 7.50, End: 8.00
+Pitch: 4, Start: 8.00, End: 8.50
+Pitch: 4, Start: 8.50, End: 9.00
+Pitch: 8, Start: 9.00, End: 9.50
+Pitch: 4, Start: 9.50, End: 10.00
+Pitch: 4, Start: 10.00, End: 10.50
+Pitch: 51, Start: 10.50, End: 11.00
+Pitch: 4, Start: 11.00, End: 11.50
+Pitch: 4, Start: 11.50, End: 12.00
+🎵 正在播放...
+🔚 stop.
+(RMUSICVAE) PS D:\PhD_Year1\Prototype1\Exploring_XAI_in_GenMus_via_LSR-main\Exploring_XAI_in_GenMus_via_LSR-main\utils> python train_with_arduino.py
+pygame 2.6.1 (SDL 2.28.4, Python 3.9.21)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+🔍 加载数据集和模型...
+Valid file list already available. Reading them now.
+Dictionaries already exist. Reading them now
+NUMBER OF NOTES:  116
+✅ connect Arduino
+🎧 start receiving Arduino input...
+📅 Arduino input value: 
+⚠️ ignore invalid value:
+📅 Arduino input value: Arduino 准备就绪...
+⚠️ error: could not convert string to float: 'Arduino 准备就绪...'
+📅 Arduino input value: -0.9003
+📟 original samples tensor shape: torch.Size([1, 1, 24])
+🎛 z0 = -0.90 → notes generated: [36, 4, 4, 33, 4, 4, 51, 4, 4, 51, 4, 4, 8, 4, 4, 57, 4, 4, 8, 4, 4, 51, 4, 4]
+💾 MIDI 文件已保存为: D:/PhD_Year1/Prototype1/Exploring_XAI_in_GenMus_via_LSR-main/Exploring_XAI_in_GenMus_via_LSR-main\024.mid
+🎧 播放用文件: generated_debug.mid
+🎶 共生成 24 个音符
+Pitch: 36, Start: 0.00, End: 0.50
+Pitch: 4, Start: 0.50, End: 1.00
+Pitch: 4, Start: 1.00, End: 1.50
+Pitch: 33, Start: 1.50, End: 2.00
+Pitch: 4, Start: 2.00, End: 2.50
+Pitch: 4, Start: 2.50, End: 3.00
+Pitch: 51, Start: 3.00, End: 3.50
+Pitch: 4, Start: 3.50, End: 4.00
+Pitch: 4, Start: 4.00, End: 4.50
+Pitch: 51, Start: 4.50, End: 5.00
+Pitch: 4, Start: 5.00, End: 5.50
+Pitch: 4, Start: 5.50, End: 6.00
+Pitch: 8, Start: 6.00, End: 6.50
+Pitch: 4, Start: 6.50, End: 7.00
+Pitch: 4, Start: 7.00, End: 7.50
+Pitch: 57, Start: 7.50, End: 8.00
+Pitch: 4, Start: 8.00, End: 8.50
+Pitch: 4, Start: 8.50, End: 9.00
+Pitch: 8, Start: 9.00, End: 9.50
+Pitch: 4, Start: 9.50, End: 10.00
+Pitch: 4, Start: 10.00, End: 10.50
+Pitch: 51, Start: 10.50, End: 11.00
+Pitch: 4, Start: 11.00, End: 11.50
+Pitch: 4, Start: 11.50, End: 12.00
+🎵 正在播放...
+✅ 播放完成
+📅 Arduino input value: -1.0000
+📟 original samples tensor shape: torch.Size([1, 1, 24])
+🎛 z0 = -1.00 → notes generated: [36, 4, 4, 33, 4, 4, 51, 4, 4, 51, 4, 4, 8, 4, 4, 57, 4, 4, 8, 4, 4, 51, 4, 4]
+💾 MIDI 文件已保存为: D:/PhD_Year1/Prototype1/Exploring_XAI_in_GenMus_via_LSR-main/Exploring_XAI_in_GenMus_via_LSR-main\025.mid
+🎧 播放用文件: generated_debug.mid
+🎶 共生成 24 个音符
+Pitch: 36, Start: 0.00, End: 0.50
+Pitch: 4, Start: 0.50, End: 1.00
+Pitch: 4, Start: 1.00, End: 1.50
+Pitch: 33, Start: 1.50, End: 2.00
+Pitch: 4, Start: 2.00, End: 2.50
+Pitch: 4, Start: 2.50, End: 3.00
+Pitch: 51, Start: 3.00, End: 3.50
+Pitch: 4, Start: 3.50, End: 4.00
+Pitch: 4, Start: 4.00, End: 4.50
+Pitch: 51, Start: 4.50, End: 5.00
+Pitch: 4, Start: 5.00, End: 5.50
+Pitch: 4, Start: 5.50, End: 6.00
+Pitch: 8, Start: 6.00, End: 6.50
+Pitch: 4, Start: 6.50, End: 7.00
+Pitch: 4, Start: 7.00, End: 7.50
+Pitch: 57, Start: 7.50, End: 8.00
+Pitch: 4, Start: 8.00, End: 8.50
+Pitch: 4, Start: 8.50, End: 9.00
+Pitch: 8, Start: 9.00, End: 9.50
+Pitch: 4, Start: 9.50, End: 10.00
+Pitch: 4, Start: 10.00, End: 10.50
+Pitch: 51, Start: 10.50, End: 11.00
+Pitch: 4, Start: 11.00, End: 11.50
+Pitch: 4, Start: 11.50, End: 12.00
+🎵 正在播放...
+✅ 播放完成
+📅 Arduino input value: -1.0000
+📟 original samples tensor shape: torch.Size([1, 1, 24])
+🎛 z0 = -1.00 → notes generated: [36, 4, 4, 33, 4, 4, 51, 4, 4, 51, 4, 4, 8, 4, 4, 57, 4, 4, 8, 4, 4, 51, 4, 4]
+💾 MIDI 文件已保存为: D:/PhD_Year1/Prototype1/Exploring_XAI_in_GenMus_via_LSR-main/Exploring_XAI_in_GenMus_via_LSR-main\026.mid
+🎧 播放用文件: generated_debug.mid
+🎶 共生成 24 个音符
+Pitch: 36, Start: 0.00, End: 0.50
+Pitch: 4, Start: 0.50, End: 1.00
+Pitch: 4, Start: 1.00, End: 1.50
+Pitch: 33, Start: 1.50, End: 2.00
+Pitch: 4, Start: 2.00, End: 2.50
+Pitch: 4, Start: 2.50, End: 3.00
+Pitch: 51, Start: 3.00, End: 3.50
+Pitch: 4, Start: 3.50, End: 4.00
+Pitch: 4, Start: 4.00, End: 4.50
+Pitch: 51, Start: 4.50, End: 5.00
+Pitch: 4, Start: 5.00, End: 5.50
+Pitch: 4, Start: 5.50, End: 6.00
+Pitch: 8, Start: 6.00, End: 6.50
+Pitch: 4, Start: 6.50, End: 7.00
+Pitch: 4, Start: 7.00, End: 7.50
+Pitch: 57, Start: 7.50, End: 8.00
+Pitch: 4, Start: 8.00, End: 8.50
+Pitch: 4, Start: 8.50, End: 9.00
+Pitch: 8, Start: 9.00, End: 9.50
+Pitch: 4, Start: 9.50, End: 10.00
+Pitch: 4, Start: 10.00, End: 10.50
+Pitch: 51, Start: 10.50, End: 11.00
+Pitch: 4, Start: 11.00, End: 11.50
+Pitch: 4, Start: 11.50, End: 12.00
+🎵 正在播放...
+✅ 播放完成
+📅 Arduino input value: -1.0000
+📟 original samples tensor shape: torch.Size([1, 1, 24])
+🎛 z0 = -1.00 → notes generated: [36, 4, 4, 33, 4, 4, 51, 4, 4, 51, 4, 4, 8, 4, 4, 57, 4, 4, 8, 4, 4, 51, 4, 4]
+💾 MIDI 文件已保存为: D:/PhD_Year1/Prototype1/Exploring_XAI_in_GenMus_via_LSR-main/Exploring_XAI_in_GenMus_via_LSR-main\027.mid
+🎧 播放用文件: generated_debug.mid
+🎶 共生成 24 个音符
+Pitch: 36, Start: 0.00, End: 0.50
+Pitch: 4, Start: 0.50, End: 1.00
+Pitch: 4, Start: 1.00, End: 1.50
+Pitch: 33, Start: 1.50, End: 2.00
+Pitch: 4, Start: 2.00, End: 2.50
+Pitch: 4, Start: 2.50, End: 3.00
+Pitch: 51, Start: 3.00, End: 3.50
+Pitch: 4, Start: 3.50, End: 4.00
+Pitch: 4, Start: 4.00, End: 4.50
+Pitch: 51, Start: 4.50, End: 5.00
+Pitch: 4, Start: 5.00, End: 5.50
+Pitch: 4, Start: 5.50, End: 6.00
+Pitch: 8, Start: 6.00, End: 6.50
+Pitch: 4, Start: 6.50, End: 7.00
+Pitch: 4, Start: 7.00, End: 7.50
+Pitch: 57, Start: 7.50, End: 8.00
+Pitch: 4, Start: 8.00, End: 8.50
+Pitch: 4, Start: 8.50, End: 9.00
+Pitch: 8, Start: 9.00, End: 9.50
+Pitch: 4, Start: 9.50, End: 10.00
+Pitch: 4, Start: 10.00, End: 10.50
+Pitch: 51, Start: 10.50, End: 11.00
+Pitch: 4, Start: 11.00, End: 11.50
+Pitch: 4, Start: 11.50, End: 12.00
+🎵 正在播放...
+✅ 播放完成
+📅 Arduino input value: -1.0000
+📟 original samples tensor shape: torch.Size([1, 1, 24])
+🎛 z0 = -1.00 → notes generated: [36, 4, 4, 33, 4, 4, 51, 4, 4, 51, 4, 4, 8, 4, 4, 57, 4, 4, 8, 4, 4, 51, 4, 4]
+💾 MIDI 文件已保存为: D:/PhD_Year1/Prototype1/Exploring_XAI_in_GenMus_via_LSR-main/Exploring_XAI_in_GenMus_via_LSR-main\028.mid
+🎧 播放用文件: generated_debug.mid
+🎶 共生成 24 个音符
+Pitch: 36, Start: 0.00, End: 0.50
+Pitch: 4, Start: 0.50, End: 1.00
+Pitch: 4, Start: 1.00, End: 1.50
+Pitch: 33, Start: 1.50, End: 2.00
+Pitch: 4, Start: 2.00, End: 2.50
+Pitch: 4, Start: 2.50, End: 3.00
+Pitch: 51, Start: 3.00, End: 3.50
+Pitch: 4, Start: 3.50, End: 4.00
+Pitch: 4, Start: 4.00, End: 4.50
+Pitch: 51, Start: 4.50, End: 5.00
+Pitch: 4, Start: 5.00, End: 5.50
+Pitch: 4, Start: 5.50, End: 6.00
+Pitch: 8, Start: 6.00, End: 6.50
+Pitch: 4, Start: 6.50, End: 7.00
+Pitch: 4, Start: 7.00, End: 7.50
+Pitch: 57, Start: 7.50, End: 8.00
+Pitch: 4, Start: 8.00, End: 8.50
+Pitch: 4, Start: 8.50, End: 9.00
+Pitch: 8, Start: 9.00, End: 9.50
+Pitch: 4, Start: 9.50, End: 10.00
+Pitch: 4, Start: 10.00, End: 10.50
+Pitch: 51, Start: 10.50, End: 11.00
+Pitch: 4, Start: 11.00, End: 11.50
+Pitch: 4, Start: 11.50, End: 12.00
+🎵 正在播放...
+✅ 播放完成
+📅 Arduino input value: -1.0000
+📟 original samples tensor shape: torch.Size([1, 1, 24])
+🎛 z0 = -1.00 → notes generated: [36, 4, 4, 33, 4, 4, 51, 4, 4, 51, 4, 4, 8, 4, 4, 57, 4, 4, 8, 4, 4, 51, 4, 4]
+💾 MIDI 文件已保存为: D:/PhD_Year1/Prototype1/Exploring_XAI_in_GenMus_via_LSR-main/Exploring_XAI_in_GenMus_via_LSR-main\029.mid
+🎧 播放用文件: generated_debug.mid
+🎶 共生成 24 个音符
+Pitch: 36, Start: 0.00, End: 0.50
+Pitch: 4, Start: 0.50, End: 1.00
+Pitch: 4, Start: 1.00, End: 1.50
+Pitch: 33, Start: 1.50, End: 2.00
+Pitch: 4, Start: 2.00, End: 2.50
+Pitch: 4, Start: 2.50, End: 3.00
+Pitch: 51, Start: 3.00, End: 3.50
+Pitch: 4, Start: 3.50, End: 4.00
+Pitch: 4, Start: 4.00, End: 4.50
+Pitch: 51, Start: 4.50, End: 5.00
+Pitch: 4, Start: 5.00, End: 5.50
+Pitch: 4, Start: 5.50, End: 6.00
+Pitch: 8, Start: 6.00, End: 6.50
+Pitch: 4, Start: 6.50, End: 7.00
+Pitch: 4, Start: 7.00, End: 7.50
+Pitch: 57, Start: 7.50, End: 8.00
+Pitch: 4, Start: 8.00, End: 8.50
+Pitch: 4, Start: 8.50, End: 9.00
+Pitch: 8, Start: 9.00, End: 9.50
+Pitch: 4, Start: 9.50, End: 10.00
+Pitch: 4, Start: 10.00, End: 10.50
+Pitch: 51, Start: 10.50, End: 11.00
+Pitch: 4, Start: 11.00, End: 11.50
+Pitch: 4, Start: 11.50, End: 12.00
+🎵 正在播放...
+🔚 stop.
+(RMUSICVAE) PS D:\PhD_Year1\Prototype1\Exploring_XAI_in_GenMus_via_LSR-main\Exploring_XAI_in_GenMus_via_LSR-main\utils> 
+C:\Users\OS\miniconda3\envs\RMUSICVAE\python.exe D:\PhD_Year1\Prototype1\Exploring_XAI_in_GenMus_via_LSR-main\Exploring_XAI_in_GenMus_via_LSR-main\utils\train_with_arduino_copy.py 
+pygame 2.6.1 (SDL 2.28.4, Python 3.9.21)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+🔍 加载数据集和模型...
+Valid file list already available. Reading them now.
+Dictionaries already exist. Reading them now
+NUMBER OF NOTES:  116
+✅ connect Arduino
+🎧 start receiving Arduino input...
+📅 Arduino input value: 
+⚠️ ignore invalid value: 
+📅 Arduino input value: Arduino 准备就绪...
+⚠️ error: could not convert string to float: 'Arduino 准备就绪...'
+📅 Arduino input value: 1.0000
+📟 original samples tensor shape: torch.Size([1, 1, 24])
+🎛 z0 = 1.00 → notes generated: [0.0, 99.0, 99.0, 99.0, 99.0, 99.0, 99.0, 99.0, 99.0, 99.0, 99.0, 99.0, 99.0, 99.0, 99.0, 99.0, 99.0, 99.0, 99.0, 99.0, 99.0, 99.0, 99.0, 99.0]
+💾 MIDI 文件已保存为: D:/PhD_Year1/Prototype1/Exploring_XAI_in_GenMus_via_LSR-main/Exploring_XAI_in_GenMus_via_LSR-main\042.mid
+🎧 播放用文件: generated_debug.mid
+🎶 共生成 23 个音符
+Pitch: 99, Start: 0.50, End: 1.00
+Pitch: 99, Start: 1.00, End: 1.50
+Pitch: 99, Start: 1.50, End: 2.00
+Pitch: 99, Start: 2.00, End: 2.50
+Pitch: 99, Start: 2.50, End: 3.00
+Pitch: 99, Start: 3.00, End: 3.50
+Pitch: 99, Start: 3.50, End: 4.00
+Pitch: 99, Start: 4.00, End: 4.50
+Pitch: 99, Start: 4.50, End: 5.00
+Pitch: 99, Start: 5.00, End: 5.50
+Pitch: 99, Start: 5.50, End: 6.00
+Pitch: 99, Start: 6.00, End: 6.50
+Pitch: 99, Start: 6.50, End: 7.00
+Pitch: 99, Start: 7.00, End: 7.50
+Pitch: 99, Start: 7.50, End: 8.00
+Pitch: 99, Start: 8.00, End: 8.50
+Pitch: 99, Start: 8.50, End: 9.00
+Pitch: 99, Start: 9.00, End: 9.50
+Pitch: 99, Start: 9.50, End: 10.00
+Pitch: 99, Start: 10.00, End: 10.50
+Pitch: 99, Start: 10.50, End: 11.00
+Pitch: 99, Start: 11.00, End: 11.50
+Pitch: 99, Start: 11.50, End: 12.00
+🎵 正在播放...
+🔚 stop.
+
+Process finished with exit code 0
